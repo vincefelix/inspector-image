@@ -1,13 +1,13 @@
 import string
 import sys
-from PIL import Image, ExifTags
-from stegano import lsb, lsbset
-from stegano.lsbset import generators
+from PIL import Image, ExifTags # type: ignore
+from stegano import lsb, lsbset # type: ignore
+from stegano.lsbset import generators # type: ignore
 from tkinter import OptionMenu, Tk, filedialog, Button, Label, StringVar
-import cv2
+import cv2 # type: ignore
 import os
-import numpy as np
-import face_recognition
+import numpy as np # type: ignore
+import face_recognition # type: ignore
 
 
 
